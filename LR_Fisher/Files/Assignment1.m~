@@ -54,9 +54,7 @@ plot(train1_2.X(end,1),train1_2.X(end,2),'k*')
 legend('Points group1','Points group2','Logistic reg','Fisher');
 
 %5.
-wL5=logisticreg(train4.X,train4.y);
-wF5=fisherdiscriminant(train4.X, train4.y);
-errL=errorrate(wL5,test4)
-errF=errorrate(wF5,test4)
+WL5=logisticreg(train4.X,train4.y);
+WF5=
 
 
